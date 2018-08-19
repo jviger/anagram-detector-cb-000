@@ -14,6 +14,7 @@ class Anagram
       if x == word.reverse
         anagrams.push(x)
       end
+    end
     anagrams
   end
   
