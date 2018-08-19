@@ -11,7 +11,7 @@ class Anagram
   def match(anagram_array)
     anagrams = []
     anagram_array.each do |x|
-      if x.sort == word.sort
+      if x.chars.sort.join == word.chars.sort.join
         anagrams.push(x)
       end
     end
